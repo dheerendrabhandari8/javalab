@@ -1,0 +1,159 @@
+[2022-05-23 17:45:58] Executing bootstrap tasks
+[2022-05-23 17:45:58] OpenJDK Runtime Environment 15.0.2+7-27
+[2022-05-23 17:45:58] Product org.eclipse.products.epp.package.java.2021-03
+[2022-05-23 17:45:58] Bundle org.eclipse.oomph.setup 1.19.0.v20210223-0655, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:45:58] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210221-1019, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:45:58] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:45:58] Performing P2 Director (Eclipse IDE for Java Developers (2021-03) + JRE 18.0.1)
+[2022-05-23 17:45:58] Offline = false
+[2022-05-23 17:45:58] Mirrors = true
+[2022-05-23 17:45:58] Resolving 18 requirements from 4 repositoriesto C:\Users\WIN7\eclipse\java-2021-03\eclipse
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.19.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-05-23 17:45:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-05-23 17:45:58] Repository https://download.eclipse.org/justj/jres/18/updates/release/18.0.1
+[2022-05-23 17:45:58] Repository https://download.eclipse.org/technology/epp/packages/2021-03/202103121200
+[2022-05-23 17:45:58] Repository https://download.eclipse.org/releases/2021-03/202103171000
+[2022-05-23 17:45:58] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2022-05-23 17:45:58] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: http://download.eclipse.org/oomph/updates/milestone/latest/content.xml
+java.net.UnknownHostException: download.eclipse.org
+  at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+  at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+  at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+  at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+  at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+  at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+  at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[2022-05-23 17:45:58] 
+[2022-05-23 17:46:01] Executing bootstrap tasks
+[2022-05-23 17:46:01] OpenJDK Runtime Environment 15.0.2+7-27
+[2022-05-23 17:46:01] Product org.eclipse.products.epp.package.java.2021-03
+[2022-05-23 17:46:01] Bundle org.eclipse.oomph.setup 1.19.0.v20210223-0655, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:01] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210221-1019, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:01] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:01] Performing P2 Director (Eclipse IDE for Java Developers (2021-03) + JRE 18.0.1)
+[2022-05-23 17:46:01] Offline = false
+[2022-05-23 17:46:01] Mirrors = true
+[2022-05-23 17:46:01] Resolving 18 requirements from 4 repositoriesto C:\Users\WIN7\eclipse\java-2021-03\eclipse
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.19.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-05-23 17:46:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-05-23 17:46:01] Repository https://download.eclipse.org/justj/jres/18/updates/release/18.0.1
+[2022-05-23 17:46:01] Repository https://download.eclipse.org/technology/epp/packages/2021-03/202103121200
+[2022-05-23 17:46:01] Repository https://download.eclipse.org/releases/2021-03/202103171000
+[2022-05-23 17:46:01] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2022-05-23 17:46:01] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: https://download.eclipse.org/technology/epp/packages/2021-03/202103121200/content.xml
+java.net.UnknownHostException: download.eclipse.org
+  at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+  at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+  at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+  at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+  at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+  at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+  at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[2022-05-23 17:46:01] 
+[2022-05-23 17:46:02] Executing bootstrap tasks
+[2022-05-23 17:46:02] OpenJDK Runtime Environment 15.0.2+7-27
+[2022-05-23 17:46:02] Product org.eclipse.products.epp.package.java.2021-03
+[2022-05-23 17:46:02] Bundle org.eclipse.oomph.setup 1.19.0.v20210223-0655, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:02] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210221-1019, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:02] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-05-23 17:46:02] Performing P2 Director (Eclipse IDE for Java Developers (2021-03) + JRE 18.0.1)
+[2022-05-23 17:46:02] Offline = false
+[2022-05-23 17:46:02] Mirrors = true
+[2022-05-23 17:46:02] Resolving 18 requirements from 4 repositoriesto C:\Users\WIN7\eclipse\java-2021-03\eclipse
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.19.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.19.0,5.0.0)
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-05-23 17:46:02] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-05-23 17:46:02] Repository https://download.eclipse.org/justj/jres/18/updates/release/18.0.1
+[2022-05-23 17:46:02] Repository https://download.eclipse.org/technology/epp/packages/2021-03/202103121200
+[2022-05-23 17:46:02] Repository https://download.eclipse.org/releases/2021-03/202103171000
+[2022-05-23 17:46:02] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2022-05-23 17:46:03] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: https://download.eclipse.org/justj/jres/18/updates/release/18.0.1/content.xml
+java.net.UnknownHostException: download.eclipse.org
+  at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+  at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+  at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+  at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+  at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+  at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+  at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[2022-05-23 17:46:03] 
