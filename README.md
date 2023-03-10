@@ -1,3 +1,1 @@
 # javalab
-hello
-kumari
