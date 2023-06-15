@@ -2,4 +2,5 @@
 This is java lab
 1
      2          
-         3
+         3       
+4
