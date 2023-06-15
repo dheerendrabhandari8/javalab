@@ -3,4 +3,5 @@ This is java lab
 1
      2          
          3       
-4
+4     
+5
